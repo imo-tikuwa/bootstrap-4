@@ -2450,6 +2450,7 @@ var TempusDominusBootstrap4 = function ($) {
                     break;
                 case 'clear':
                     this.clear();
+                    this.hide();
                     break;
                 case 'close':
                     this.hide();
